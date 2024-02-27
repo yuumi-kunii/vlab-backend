@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="" />
+    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação de migrations">
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Requests/StoreClientRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Requests/UpdateClientRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Models/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190916_create_transactions_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190929_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_194419_add_name_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_205047_update_transactions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/finance-app/database/seeders/ClientSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,6 +168,11 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
@@ -180,11 +198,18 @@
       <updated>1708992999475</updated>
       <workItem from="1708993000521" duration="815000" />
       <workItem from="1708993824047" duration="599000" />
-      <workItem from="1708995707488" duration="561000" />
+      <workItem from="1708995707488" duration="5124000" />
+      <workItem from="1709003068176" duration="75000" />
+      <workItem from="1709058546957" duration="8350000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicialização do projeto" />
+    <MESSAGE value="criação de migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação de migrations" />
   </component>
 </project>
