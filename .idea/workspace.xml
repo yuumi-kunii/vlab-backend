@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação de models, controllers e migrations">
+    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação das rotas e dos métodos do CategoryController">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22162a89-e412-42eb-aa0d-77c4d045193f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22162a89-e412-42eb-aa0d-77c4d045193f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance-app/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance-app/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/database/factories/UserFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance-app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +198,9 @@
       <workItem from="1708995707488" duration="5124000" />
       <workItem from="1709003068176" duration="75000" />
       <workItem from="1709058546957" duration="20436000" />
-      <workItem from="1709081879309" duration="3507000" />
+      <workItem from="1709081879309" duration="3926000" />
+      <workItem from="1709119848326" duration="17361000" />
+      <workItem from="1709144732508" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="criação de migrations">
       <option name="closed" value="true" />
@@ -206,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709067744288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criação das rotas e dos métodos do CategoryController">
+      <option name="closed" value="true" />
+      <created>1709086083204</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709086083204</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +227,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inicialização do projeto" />
     <MESSAGE value="criação de migrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação de migrations" />
+    <MESSAGE value="criação das rotas e dos métodos do CategoryController" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação das rotas e dos métodos do CategoryController" />
   </component>
 </project>

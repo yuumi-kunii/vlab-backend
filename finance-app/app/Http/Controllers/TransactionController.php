@@ -12,7 +12,8 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        //
+        $transactions = Transaction::with('category')->get();
+        return $transactions;
     }
 
     /**
@@ -20,31 +21,17 @@ class TransactionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $transaction = Transaction::create($request->all());
+        return $transaction;
     }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(Transaction $transaction)
-    {
-        //
-    }
-
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, Transaction $transaction)
-    {
-        //
-    }
 
     /**
      * Remove the specified resource from storage.
      */
     public function destroy(Transaction $transaction)
     {
-        //
+        $transaction->delete();
+        return ['msg' => 'Transação deletada com sucesso'];
     }
 }

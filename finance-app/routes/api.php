@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::apiResource('category', 'App\Http\Controllers\CategoryController');
 Route::apiResource('transaction', 'App\Http\Controllers\TransactionController');
+Route::apiResource('user', 'App\Http\Controllers\UserController');
