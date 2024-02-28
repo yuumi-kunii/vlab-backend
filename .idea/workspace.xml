@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação das rotas e dos métodos do CategoryController">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/22162a89-e412-42eb-aa0d-77c4d045193f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/22162a89-e412-42eb-aa0d-77c4d045193f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190916_create_transactions_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190929_create_categories_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_194419_add_name_categories.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_205047_update_transactions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_213859_update_fk_transactions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_28_000757_update_user.php" beforeDir="false" />
-    </list>
+    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="refatoração das tabelas criadas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -206,7 +191,7 @@
       <workItem from="1709081879309" duration="3926000" />
       <workItem from="1709119848326" duration="17361000" />
       <workItem from="1709144732508" duration="1830000" />
-      <workItem from="1709149515754" duration="5260000" />
+      <workItem from="1709149515754" duration="5748000" />
     </task>
     <task id="LOCAL-00001" summary="criação de migrations">
       <option name="closed" value="true" />
@@ -224,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709086083204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refatoração das tabelas criadas">
+      <option name="closed" value="true" />
+      <created>1709158888594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709158888594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +227,7 @@
     <MESSAGE value="inicialização do projeto" />
     <MESSAGE value="criação de migrations" />
     <MESSAGE value="criação das rotas e dos métodos do CategoryController" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação das rotas e dos métodos do CategoryController" />
+    <MESSAGE value="refatoração das tabelas criadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refatoração das tabelas criadas" />
   </component>
 </project>
