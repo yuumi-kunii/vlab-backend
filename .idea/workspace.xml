@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação de migrations">
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Requests/StoreClientRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Http/Requests/UpdateClientRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190916_create_transactions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_190929_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_194419_add_name_categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/database/migrations/2024_02_27_205047_update_transactions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/finance-app/database/seeders/ClientSeeder.php" afterDir="false" />
+    <list default="true" id="49ab2627-356f-4c28-ae5e-40b8155c6014" name="Changes" comment="criação de models, controllers e migrations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Http/Controllers/TransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/Transaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finance-app/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/finance-app/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +156,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/yk/vlab-backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yk/alia&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -200,8 +195,18 @@
       <workItem from="1708993824047" duration="599000" />
       <workItem from="1708995707488" duration="5124000" />
       <workItem from="1709003068176" duration="75000" />
-      <workItem from="1709058546957" duration="8350000" />
+      <workItem from="1709058546957" duration="20436000" />
+      <workItem from="1709081879309" duration="3507000" />
     </task>
+    <task id="LOCAL-00001" summary="criação de migrations">
+      <option name="closed" value="true" />
+      <created>1709067744288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709067744288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
