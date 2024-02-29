@@ -10,10 +10,25 @@ class TransactionController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $transactions = Transaction::with('category')->get();
-        return $transactions;
+        $query = Transaction::query();
+
+        if ($request->has('category_id')) {
+            $query->where('category_id', $request->category_id);
+        }
+
+        if ($request->has('user_id')) {
+            $query->where('user_id', $request->user_id);
+        }
+
+        if ($request->has('type')) {
+            $query->where('type', $request->type);
+        }
+
+        $filteredTransactions = $query->get();
+
+        return response()->json($filteredTransactions);
     }
 
     /**
@@ -34,4 +49,6 @@ class TransactionController extends Controller
         $transaction->delete();
         return ['msg' => 'Transação deletada com sucesso'];
     }
+
+
 }
